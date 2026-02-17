@@ -1,0 +1,22 @@
+        @charset "UTF-8";
+        h2 {
+
+        }
+        h3 {
+
+        }
+        p {
+                background-image: linear-gradient(
+                        to right,
+                        #ffedb2 20%,
+                        #fff 80%
+                );
+        
+        }
+        main {
+                border-radius: 20px;
+                width: 600px;
+                margin: auto;
+                background-color: #202020;
+                padding: 10px;
+        }

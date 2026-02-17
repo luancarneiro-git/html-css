@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <H1>Formatação de textos</H1>
+        <h2>Formtação de código fonte / Pré formatação</h2>
+            <pre>
+                <code>
+                    <p>
+                        def par_ou_impar():
+                            while True:
+                                valor = input("Digite um número (ou 'sair' para encerrar): ").strip()
+                                if valor.lower() == 'sair':
+                                    print("Encerrando o programa. Até mais!")
+                                    break
+                                if valor.lstrip('+-').isdigit():
+                                    numero = int(valor)
+                                    if numero % 2 == 0:
+                                        print(f"{numero} é PAR.\n")
+                                    else:
+                                        print(f"{numero} é ÍMPAR.\n")
+                                else:
+                                    try:
+                                        float(valor)
+                                        print(f"{valor} não é um número inteiro (é decimal).\n")
+                                    except ValueError:
+                                        print("Entrada inválida! Digite apenas números.\n")
+                
+                
+                    if __name__ == "__main__":
+                        par_ou_impar()
+                    </p>
+                </code>
+            </pre>
+        <h2>Citações simples</h2>
+            <p><q>eu quero eu posso</q></p>
+        <h2>Citações completas</h2>
+            <p>Segundo Renato Cariani em entrevista para a emissora Record:</q></p>
+                <blockquote cite="https://www.youtube.com/watch?v=QOxBFvBSiHI">
+                    <abbr title="Titio cariri passou por sua fase meio &#x1F308;">
+                        Eu quero, eu posso. Mechi no nariz &#x1F308;, eu fiz isso, fiz aquilo &#x1F308;
+                        porque eu quero eu posso
+                    </abbr>
+                </blockquote>
+        <h2>Abreviações</h2>
+            <p><abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="HyperText Markup Language">CSS</abbr></p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+    <link rel="shortcut icon" href="icons/favicon-html5-2.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Aqui está um exemplo claro de como dinamificar suas imagens<br>para todos os tipos de usuários
+    </p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-flexível">
+    </picture>
+    <H1>Audio no site</H1>
+    <p>Este é um exemplo de áudio no site</p>
+    <audio src="midia/JOTAPÊ - ENTENDEU O QUE NOIS SENTE_.mp3" controls></audio>    
+</body>
+</html>

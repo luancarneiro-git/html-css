@@ -1,0 +1,16 @@
+@charset "UTF-8";   
+
+
+        body {
+            background-color: rgb(37, 37, 37);
+        }
+        h1 {
+            color: rgb(209, 209, 209);
+        }
+        h2 {
+            color: rgb(119, 119, 119);
+            background-color: rgb(50, 50, 50);
+        }
+        p {
+            color: beige;
+        }
